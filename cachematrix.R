@@ -1,5 +1,6 @@
 ## These functions allow the inverse of a matrix to be cached, which is 
-## desirable because it can be a time-consuming operation. 
+## desirable because it can be a time-consuming operation. These functions
+## assume that the input matrix x is invertible.
 
 ## makeCacheMatrix creates a list of functions, which can be passed along
 ## with the matrix object x to cacheSolve.
